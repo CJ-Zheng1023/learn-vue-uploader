@@ -42,7 +42,7 @@ export default {
     return {
       mbSize: 1,
       options: {
-        target: '//localhost:3000/upload',
+        target: 'http://localhost:3000/upload',
         maxChunkRetries: 0,
         chunkSize: 0,
         headers: {}
